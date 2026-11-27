@@ -7,7 +7,7 @@ Activity: Predict the Output
 3.  Write your answer in the `prediction` variable.
 """
 
-prediction = "" # Example: "A+" or 95
+prediction = "Bob's grade is: B+" # Example: "A+" or 95
 
 student_grades = {
     "Alice": "A",
