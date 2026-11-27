@@ -20,9 +20,11 @@ capitals = {
 # --- YOUR CODE GOES BELOW ---
 
 # 1. Get user input for a new country
+country = input("enter a new country:")
 # 2. Get user input for its capital
+capital = input("enter its capital city:")
 # 3. Add the new key-value pair to the dictionary
-
+capitals[country] = capital
 # --- END MODIFICATION ---
 
 print("\nUpdated list of capitals:")
