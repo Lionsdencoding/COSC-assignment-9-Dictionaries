@@ -28,7 +28,11 @@ char_counts = {}
 # --- YOUR CODE GOES BELOW ---
 
 # 2. Loop through the string and count characters
-
+for char in text_to_analyze:
+    if char in char_counts:
+        char_counts[char] += 1
+    else:
+        char_counts[char] = 1
 # 4. Print the final dictionary
 print("Character counts:")
 print(char_counts)
