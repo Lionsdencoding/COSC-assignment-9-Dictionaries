@@ -7,14 +7,14 @@ Activity: Investigate the Code
 
 Questions:
 1. What kind of items does the loop `for key in inventory.keys():` iterate over?
-   # Your Answer Here
+   # the loops iterates over the keys of the dictionary "apples',"oranges", "bananas"
 
 2. What kind of items does the loop `for value in inventory.values():` iterate over?
-   # Your Answer Here
+   # it iterates over the values 5,3, and 10
 
 3. The loop `for key, value in inventory.items():` gives you two variables at once.
    What does each variable represent?
-   # Your Answer Here
+   # the variables it gives are key and value. Key is the item name example:"apple", and value is the corresonding value example: 5
 """
 
 inventory = {
