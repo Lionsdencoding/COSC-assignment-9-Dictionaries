@@ -9,10 +9,11 @@ Activity: Investigate the Code
 
 Questions:
 1. What happened to the first entry for "apple" (with the value "red")?
-   # Your Answer Here
+   # the entry was overwritten with the second value of green placing it
 
 2. Based on this, can a dictionary have duplicate keys? What happens if you try?
-   # Your Answer Here
+   # No a dictionary can't have duplicated keys, only one entry per key works. If multiple duplicate keys are attempted to be 
+   used the old value is replaced.
 """
 
 # What happens when a key is duplicated?
