@@ -9,7 +9,7 @@ Activity: Predict the Output
 """
 
 # What will the final dictionary look like?
-prediction = {} # Example: {"username": "zane", "level": 11, "active": False}
+prediction = {"username": "alex", "level": "11", "active":"true"} # Example: {"username": "zane", "level": 11, "active": False}
 
 user_profile = {
     "username": "alex",
