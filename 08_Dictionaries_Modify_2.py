@@ -25,6 +25,9 @@ user_word = input("Enter a word to define: ")
 # --- MODIFY THE CODE BELOW ---
 
 # This line will crash if the user_word is not a key!
-print(definitions[user_word])
 
+if user_word in difinitions:
+    print(definitions[user_word])
+else:
+    print("sorry, that word isn't defined.")
 # --- END MODIFICATION ---
